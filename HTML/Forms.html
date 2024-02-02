@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="email">Username</label>
+        <input type="text" id="email" placeholder="email" required="true"><br>
+        Password:<input type="password"><br>
+        <label>Gender: </label>
+        <label for="male">Male</label><!--name should be same so that one select others disselect-->
+        <input type="radio" id="male"  name="gender" value="Male">
+        <label for="female">FeMale</label>
+        <input type="radio" id="female"   name="gender" value="FeMale">
+        <br>
+        <br>
+        <label>upload</label>
+        <input type="file">
+        <br>
+        <br>
+
+        <label>Favourite fruit: </label>
+        <label for="apple">Apple</label>
+        <input type="checkbox" id="apple"  name="fruit" value="Apple">
+        <label for="banana">Banana</label>
+        <input type="checkbox" id="banana"  name="fruit" value="Banana">
+        
+        <br>
+        <label>CHOOSE LANGUAGE: </label>
+        <select>
+            <option>C</option>
+            <option>Python</option>
+            <option>Java</option>
+            <option>C++</option>
+        </select>
+        <br>
+        <label>TELL ME ABOUT YOURSELF</label>
+        <textarea rows="3" cols="50"></textarea>
+        
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
